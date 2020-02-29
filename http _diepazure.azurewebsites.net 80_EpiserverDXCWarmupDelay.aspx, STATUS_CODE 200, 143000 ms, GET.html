@@ -1,0 +1,1303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                &lt;!-- saved from url=(0014)about:internet --&gt;
+            <title>http://diepazure.azurewebsites.net:80/EpiserverDXCWarmupDelay.aspx, STATUS_CODE 200, 143000 ms, GET</title><style type="text/css">
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    HTML TAGS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body.iistraceinfo { 
+    margin:0;
+    padding:0;
+    font-size:.7em;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    background-color:white;
+    }
+
+fieldset {
+    padding:2 0px 1px 1px;
+    margin:8px;
+    position:relative;
+    }
+
+.summary-container fieldset {
+    padding-bottom:5px;
+    margin-top:4px;
+    }
+    
+fieldset fieldset {
+    padding:2px 0px 1px 10px;
+    margin:10px 0;
+    }
+
+.no-border {
+    border: none;
+    }
+
+
+legend {
+    color:#333333;
+    padding:10px 20px 10px 9.5em;
+    margin:0 0 5px 0;
+    }
+
+legend.no-expand-all {
+    padding:2px 15px 4px 10px;
+    margin:0 0 0 -12px;
+    }
+
+.summary-container legend {
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color:#333333;
+    padding:4px 15px 4px 10px;
+    margin:4px 0 0 12px;
+    _margin-top:0px; /* IE 6 will read this only */
+    border-top:1px solid #EDEDED;
+    border-left:1px solid #EDEDED;
+    border-right:1px solid #969696;
+    border-bottom:1px solid #969696;
+    background:#E7ECF0;
+    font-weight:bold;
+    font-size:1em;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    HEADINGS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+h1 { 
+    font-size:1.2em;
+    margin:0;
+    word-wrap:break-word;
+    text-align:left;
+    }
+    
+h2 { 
+    font-size:1.1em;
+    margin:0 0 0 0;
+    display:inline;
+    }
+
+.summary-container h2 {
+    margin-bottom:-17px;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    LINKS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+a:link, a:visited { 
+    color:#007EFF;
+    font-weight:bold;
+    text-decoration:none;
+    }
+    
+a:hover { 
+    text-decoration:underline; 
+    }
+    
+a .expand-collapse {
+    text-decoration:none;
+    }
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    HEADER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#header { 
+    width:95%;
+    margin:0 0 0 0;
+    padding:6px 2% 6px 3%;
+    font-family:"trebuchet MS", Verdana, sans-serif;
+    color:#FFF;
+    background-color:#5C87B2;
+    text-align:right;
+    }
+
+#header p {
+    margin:1px 0 1px 0;
+    padding:0;
+    font-size:1.2em;
+    font-weight:bold;
+    }
+
+#header a {
+    color:#F1F7FC;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    MENU
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#menu_container,
+#sub_menu_container { 
+    width:98%;
+    _height:44px;
+    min-height:44px;
+    margin:0 0 5px 0;
+    padding:8px 0 0 2%;
+    color:#FFFFFF;
+    background-color:#5C87B2;
+    /*background-color:#5A7FA5;*/
+    border-bottom:1px dotted #C1CFDD;
+    border-top:1px dotted #4A6C8E;
+/*    progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#AABDD0,endColorStr=#125295);
+*/    position:relative;    
+    }
+    
+#menu_container ul,
+#sub_menu_container ul {
+    margin:0;
+    }
+    
+#menu_container li,
+#sub_menu_container li {
+    list-style:none;
+    float:left;
+    position:relative;
+    text-align:center;
+    }
+
+#menu_container a:link,
+#menu_container a:visited,
+#sub_menu_container a:link,
+#sub_menu_container a:visited {
+    color:#fff;
+    display:block;
+    _height:24px;
+    min-height:24px;
+    padding:5px 10px 4px 10px;
+    float:left;
+    text-align:center;
+    font-weight:bold;
+    font-size:.9em;
+    text-decoration:none;
+    border:1px dotted #224870;
+    }
+    
+#menu_container a.active:link,
+#menu_container a.active:visited,
+#sub_menu_container a.active:link,
+#sub_menu_container a.active:visited,
+#sub_menu_container a.parent-tab-highlight:link,
+#sub_menu_container a.parent-tab-highlight:visited {
+    color:#000;
+    border-top:1px solid #224870;
+    background:#B3CAD9;
+    padding-bottom:3px;
+    _height:35px;
+    min-height:35px;
+    }
+
+#menu_container a#viewErrors:link,
+#menu_container a#viewErrors:visited,
+#sub_menu_container a#viewDetails:link,
+#sub_menu_container a#viewDetails:visited {
+    border-left:1px solid #224870;
+    }
+
+#menu_container a:hover,
+#sub_menu_container a:hover {
+    text-decoration:underline;
+    }
+    
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    SUB MENU SPECIFIC STYLES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#sub_menu_container { 
+    margin:-10px 0 5px 0;
+    border-top:none;
+    background-color:#B3CAD9;
+    }
+
+#sub_menu_container a.active:link,
+#sub_menu_container a.active:visited {
+    background-color:white;
+    }
+    
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    TABLES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+td,
+th { 
+    vertical-align:top;
+    padding:1px; 
+    text-align:left;
+    }
+
+thead th {
+    background-color:#5C81A7;
+    }
+
+table {
+    margin:8px 0 4px 0;
+    }
+
+table.request-summary {
+    margin:0px 0 5px 0;
+    }
+
+table.column-1 {
+    width:55%;
+    }
+
+table.column-2 {
+    float:right;
+    width:43%;
+    }
+        
+.request-summary th {
+    width:28%;
+    text-align:left;
+    white-space:nowrap;
+    }
+    
+table.column-2 th {
+    width:48%;
+    }
+
+/* REQUEST SUMMARY TABLE */
+
+.request-summary td,
+.request-summary th {
+    padding:3px 6px;
+    font-weight:normal; 
+    }
+
+.request-summary th {
+    color:#808080;
+    font-weight:bold; 
+    text-align:right;
+    }
+
+.request-summary tr.alt td, 
+.request-summary tr.alt th { 
+    background-color:#F8F8F8; 
+    }
+    
+table tr.alt td, 
+table tr.alt th { 
+    background-color:#F8F8F8;
+    }
+     
+fieldset fieldset table tr.alt td, 
+fieldset fieldset table tr.alt th { 
+    background-color:transparent;
+}     
+     
+/* columns */
+
+td.col-number,
+th.col-number {
+    width:35px;
+    }
+
+td.col-actions,
+th.col-actions {
+    width:65px;
+    }
+
+td.col-view,
+th.col-view {
+    width:65px;
+    }
+
+td.col-severity,
+th.col-severity {
+    width:70px;
+    }
+    
+td.col-event,
+th.col-event {
+    }
+
+td.col-notification,
+th.col-notification {
+    }
+    
+td.col-name,
+th.col-name {
+    width:35%;
+    }
+
+td.col-filter-module,
+th.col-filter-module {
+    width:35%;
+    }
+
+td.col-duration,
+th.col-duration {
+    width:65px;
+    text-align:center;
+    font-weight:bold;
+    }
+
+td.event-data {
+    word-wrap:break-word;
+    word-break:break-all;
+    white-space:pre-wrap;
+    }
+td.event-name {
+    word-wrap:break-word;
+    word-break:break-all;
+    }
+.pre-event-data {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:1em;
+    margin-bottom:0px;
+    white-space:pre;
+    word-wrap:break-word;
+    }
+td.col-uri,
+th.col-uri {
+    width:30%;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    NESTED TABLES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* NESTED TABLE CELLS */
+table table tr td,
+table table tr th,
+table table tr.alt td,
+table table tr.alt th { 
+    background-color:#FFF;
+    }
+
+/* NESTED TABLE CELLS in ALT PARENT ROWS */
+table tr.alt table tr td,
+table tr.alt table tr th,
+table tr.alt table tr.alt td,
+table tr.alt table tr.alt th { 
+    background-color:white; /*just changed*/
+    }
+    
+/* NESTED TABLE TH HEADERS */
+table table th,
+fieldset fieldset table th{  
+    font-weight:normal;
+    width:40%;
+    text-align:right;
+    color:#808080;
+    padding-right:8px;
+    }
+    
+    
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    SORTABLE TABLES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+table.sortable a.sortheader { 
+    display:block; 
+    color:#FFF;
+    }
+    
+table.sortable span.sortarrow { 
+    color:#FFF; 
+    text-decoration:none; 
+    font-size:1.2em;
+    }   
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    SEVERITY
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.severity-critical,
+.severity-error,
+.severity-warning,
+.severity-failed,
+.severity-informational,
+.severity-verbose {
+    font-family:"Courier New", Courier, monospace;
+    color:#990000;
+    font-weight:bold;
+    padding:0 10px;
+    font-size:1.2em;
+    line-height:1.1em;
+    }
+    
+.severity-critical {
+    background:#990000;
+    border:3px solid #990000;
+    text-transform:uppercase;
+    color:#FFF;
+    }
+
+.severity-error {
+    background:#FFE4CC;
+    border:3px solid #990000;
+    text-transform:uppercase;
+    }
+
+.severity-warning {
+    background:#FFFFCC;
+    border:1px solid #CD8282;
+    }
+
+.severity-failed {
+    background:#E4FAC8;
+    font-style:italic;
+    color:#BB7700;
+    }
+    
+.severity-informational {
+    color:#B0B0B0;
+    }
+
+.severity-verbose {
+    color:#919191;
+    }
+
+/* STYLES WHEN INSIDE A TABLE COLUMN */
+td .severity-critical,
+td .severity-error,
+td .severity-warning,
+td .severity-failed,
+td .severity-informational,
+td .severity-verbose {
+    display:block;
+    width:6em;
+    text-align:center;
+    padding:4px 2px;
+    margin-left:0;
+    font-size:1.1em;
+    float:left;
+    }
+
+/* STYLES WHEN INSIDE THE COMPLETE TRACE*/
+fieldset div.severity-critical,
+fieldset div.severity-error,
+fieldset div.severity-warning,
+fieldset div.severity-failed,
+fieldset div.severity-informational,
+fieldset div.severity-verbose  {
+    float:right;
+    width:11em;
+    text-align:left;
+    padding:1px 2px;
+    font-size:1.1em;
+    }
+
+/* SOME HAVE THICK BORDERS SO WE RE-STYLE THEM */
+fieldset div.severity-critical,
+fieldset div.severity-error {
+    top:1px;
+    text-align:center;
+    }
+
+fieldset div.severity-warning {
+    top:2px;
+    text-align:center;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    MISC STYLES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.summary-container,
+.content-container {
+    background:#FFF;
+    width:98%;
+    margin:8px 0 0 1%;
+    padding:0 0 1px 0;
+    position:relative;
+    }
+
+div.outer { 
+    width:90%; 
+    margin:15px;
+    }
+    
+div.buffer {
+    padding-top:7px; 
+    padding-bottom:17px; 
+    }
+    
+.small { 
+    font-size:.9em; 
+    }
+    
+div.hidden { 
+    display:none 
+    }
+    
+.highlight {
+    background-color:Yellow;
+    }
+
+.tinylink {
+    font-size:.9em;
+    }
+
+.no-data {
+    background:#B3CAD9;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+    font-weight:bold;
+    padding:5px;
+    text-align:center;
+    font-style:italic;
+    }
+    
+.expand-collapse {
+    font-family:"Courier New", Courier, monospace;
+    font-weight:bold;
+    padding:0 6px 0 0;
+    font-size:1.2em;
+    text-decoration:none;
+    }
+
+.expand-collapse-all {
+    font-size:1em;
+    color:#333333;
+    padding:3px 12px 3px 10px;
+    border-top:1px solid #EDEDED;
+    border-left:1px solid #EDEDED;
+    border-right:1px solid #969696;
+    border-bottom:1px solid #969696;
+    background:#E7ECF0;
+    font-weight:bold;
+    font-size:1.1em;
+    position:absolute;
+    top:5px;
+    left:20px;
+    z-index:100;
+    text-decoration:none;
+    }
+
+.duration {
+    float:right;
+    width:6em;
+    text-align:right;
+    padding:1px 5px 0 0;
+    margin-left:25px;
+    }
+
+.duration-value {
+    font-size:.9em;
+    }
+
+span.iistraceinfo { background-color:white; color:black;font-size:1em; word-wrap: break-word; }
+span.iistraceinfo table { font-size:1em; cellspacing:0; cellpadding:0; margin-bottom:25; width:95%;}
+span.iistraceinfo tr.subhead { background-color:cccccc;}
+span.iistraceinfo th { padding:0,3,0,3 }
+span.iistraceinfo td { padding:0,30,0,3;white-space:pre;word-wrap: break-word;white-space: pre-wrap;}
+span.iistraceinfo tr.alt { background-color:F8F8F8; color:black }
+span.iistraceinfo a:hover { color:darkblue;text-decoration:none; }
+span.iistraceinfo table td { padding-right:20 }
+</style><script type="text/javascript">
+                //addEvent(window, "unload", backCheck);
+                var lastSectionName = null;
+                var lastTabName = null;
+                var currentSectionName = null;
+                var currentTabName = null;
+                /*function backCheck(e)
+                {
+                    if ( lastSectionName != null )
+                    {
+                        alert("loc: " + window.location);
+                        window.location.replace(window.location + "?sectionName=" + lastSectionName + "&tabName=" + lastTabName);
+                    }
+                }*/
+                var styles = new Object();
+
+                function toggleDiv(divId, expand)
+                {
+                    var d = window.document.getElementById(divId + '_details');
+                    var i = window.document.getElementById(divId + '_button');
+              
+                    if( expand == null || typeof(expand) == 'undefined' )
+                        expand = (d.style.display == 'block'?false:true);
+              
+                    if ( expand )
+                    {
+                        d.style.display = 'block';
+                        i.innerHTML = "-";
+                    }
+                    else
+                    {
+                        d.style.display = 'none';
+                        i.innerHTML = "+";
+                    }
+                }
+            
+                function toggleAll(expandAllText, collapseAllText, sectionId)
+                {
+                    var currentState = null;
+                    var expand = true;
+
+  
+                    // Determine the current state.
+                    eval("currentState = window." + sectionId + "_expand;");
+                    if ( currentState == null )
+                        expand = false; // default state is now expand
+                    else if ( currentState == false )
+                        expand = true;
+                    else
+                        expand = false;
+    
+                    expandAll(expandAllText, collapseAllText, sectionId, expand);
+                    
+                    eval("window." + sectionId + "_expand = " + expand + ";");
+                }
+            
+                function expandAll(expandAllText, collapseAllText, sectionId, expand)
+                {
+
+                    var expandButton = window.document.getElementById(sectionId + "_button");
+                    var indexElements = null;
+                    
+                    if ( sectionId == "section_detail" )
+                        indexElements = window.document.getElementsByTagName("fieldset");
+                    else
+                        indexElements = window.document.getElementsByTagName("tr");
+
+                    
+                    for ( var i = 0; i < indexElements.length; i++)
+                    {
+                        if ( indexElements[i].id && indexElements[i].id.indexOf(sectionId) >= 0 )
+                            toggleDiv(indexElements[i].id, expand);
+                    }
+                    
+                    if ( expandButton && expandButton.innerHTML)
+                        if ( expand == true )
+                            expandButton.innerHTML = "<span class='expand-collapse'>-</span>" + collapseAllText;
+                        else
+                            expandButton.innerHTML = "<span class='expand-collapse'>+</span>" + expandAllText;
+                }
+            
+                function findInDetail(indexNumber)
+                {
+                    // Change the report to "All Events"
+                    setView('section_detail', 'viewDetails');
+                    
+                    // Navigate to the indexNumber anchor.
+                    
+                    window.location.replace("#detail_" + indexNumber);
+                    
+                    //Fat.fade_element(id, fps, duration, from, to)                                                         
+                    Fat.fade_element('section_detail_' + indexNumber, null, null, '#ffff66', '#ffffff' );
+                }
+
+                var currentView = null;
+                var currentTabId = null;
+                function setView(divId, tabId)
+                {
+                    
+                    lastSectionName = currentSectionName;
+                    lastTabName = currentTabName;
+                    currentSectionName = divId;
+                    currentTabName = tabId;
+                    // Get the value of the radioReportOptions radio.
+                    //var rg = window.document.getElementsByName("radioView");
+                    var currentViewElement = null;
+                    var currentTabElement = null;
+                    var selectedViewElement = null;
+                    var selectedTabElement = null;
+                    var requestDetailsElement = window.document.getElementById('sub_menu_container');
+                    var requestDetailsTab = window.document.getElementById('requestDetails');
+                    var requestSummary = window.document.getElementById('section_generalinformation');
+                    
+                    switch( divId )
+                    {
+                    case "section_errors":
+                    case "section_compact":
+                        if ( requestDetailsElement )
+                            requestDetailsElement.style.display = 'none';
+                        if ( requestDetailsTab )
+                            requestDetailsTab.className = "";
+                        break;
+                    case "section_detail":
+                        if ( requestDetailsElement )
+                            requestDetailsElement.style.display = 'block';
+                        if ( requestDetailsTab )
+                            requestDetailsTab.className = "active";
+                        break;
+                    }
+              
+                    // Hide the current view.
+                    if ( currentView != null && currentTabId != null )
+                    {
+                        currentViewElement = window.document.getElementById(currentView);
+                        currentTabElement = window.document.getElementById(currentTabId);
+                        if ( currentViewElement )
+                            currentViewElement.style.display = 'none';
+                        if ( currentTabElement )
+                            currentTabElement.className = "";
+                    }
+                    
+                    // Show the selected view.
+                    selectedViewElement = window.document.getElementById(divId);
+                    selectedTabElement = window.document.getElementById(tabId);
+                    
+                    if ( selectedViewElement )
+                        selectedViewElement.style.display = 'block';
+              
+                    selectedTabElement.className = "active";
+              
+                    switch( divId )
+                    {
+                    case "section_errors":
+                        if ( requestSummary )
+                            requestSummary.style.display = 'block';
+                        //toggleDiv("section_generalinformation", true);
+                        break;
+                    case "section_compact":
+                    case "section_detail":
+                        if ( requestSummary )
+                            requestSummary.style.display = 'none';
+                        //toggleDiv("section_generalinformation", false);
+                        break;
+                    }
+              
+                    currentView = divId;
+                    currentTabId = tabId;
+                }
+            
+                function load()
+                {   
+                    // If there is a section that needs to be viewed, show it.
+                    /*alert("search: " + window.location.search);
+                    if ( window.location.search.indexOf("sectionName", 0) >= 0 )
+                    {
+                        var nv = window.location.search.split('&');
+                        var sn = nv[0].split('=')[1];
+                        var tn = nv[1].split('=')[1];
+                        alert("sn: " + sn + ", tn: " + tn);
+                        setView(sn, tn);
+                        return;
+                    }
+                    alert("test2");*/
+                    setView('section_errors','viewErrors');
+                }
+            
+                // Sort Table
+                addEvent(window, "load", sortables_init);
+
+                var SORT_COLUMN_INDEX;
+
+                function sortables_init() {
+                        // Find all tables with class sortable and make them sortable
+                        if (!document.getElementsByTagName) return;
+                        tbls = document.getElementsByTagName("table");
+                        for (ti=0;ti<tbls.length;ti++) {
+                                thisTbl = tbls[ti];
+                                if (((' '+thisTbl.className+' ').indexOf("sortable") != -1) && (thisTbl.id)) {
+                                        //initTable(thisTbl.id);
+                                        ts_makeSortable(thisTbl);
+                                }
+                        }
+                
+                        //alert("boo: " + window.document.getElementById('defaultsortme'));
+                        //ts_resortTable(window.document.getElementById('defaultsortme'), '0'), 
+                }
+
+                function ts_makeSortable(table) {
+                        var defaultCell = null
+                        var defaultIndex = null;
+                        
+                        if (table.rows && table.rows.length > 0) {
+                                var firstRow = table.rows[0];
+                        }
+                        if (!firstRow) return;
+                
+                        // We have a first row: assume it's the header, and make its contents clickable links
+                        for (var i=0;i<firstRow.cells.length;i++) {
+                                var cell = firstRow.cells[i];
+                                var txt = ts_getInnerText(cell);
+                                /*cell.innerHTML = '<a href="#" class="sortheader" '+ 
+                                'onclick="ts_resortTable(this, '+i+');return false;" alt="Sort By This Column">' + 
+                                txt+'<span class="sortarrow">&nbsp;</span></a>';*/
+                                
+                                // BDG: Added default sort direction: desc class for descending.
+                                if ( (' '+cell.className+' ').indexOf("desc") != -1 )
+                                {
+                                    cell.innerHTML = '<a href="#" class="sortheader" '+ 
+                                    'onclick="ts_resortTable(this, '+i+');return false;" alt="Sort By This Column">' + 
+                                    txt+'<span class="sortarrow" sortdir="down">&nbsp;</span></a>';
+                                }
+                                else
+                                {
+                                    cell.innerHTML = '<a href="#" class="sortheader" '+ 
+                                    'onclick="ts_resortTable(this, '+i+');return false;" alt="Sort By This Column">' + 
+                                    txt+'<span class="sortarrow">&nbsp;</span></a>';
+                                }
+                                
+                                if ( (' '+cell.className+' ').indexOf("defaultsort") != -1 )
+                                {
+                                    defaultCell = cell;
+                                    defaultIndex = i;
+                                    var span;
+                                    // Mark default sorted column in table with down arrow symbol
+                                    for (var ci=0;ci<defaultCell.firstChild.childNodes.length;ci++) 
+                                    {
+                                        if (defaultCell.firstChild.childNodes[ci].tagName && defaultCell.firstChild.childNodes[ci].tagName.toLowerCase() == 'span') 
+                                        {
+                                            span = defaultCell.firstChild.childNodes[ci];
+                                            span.setAttribute('sortdir','down');
+                                            span.innerHTML = '&darr;';
+                                        }
+                                    }
+
+                                }
+                        }
+                
+                        // ts_makeSortable gets called on page load, so don't sort tables here.
+                        // If sorting happens here, page load time goes up.
+                        //if ( defaultCell)
+                        //    ts_resortTable(defaultCell.firstChild, defaultIndex);
+                }
+
+                function ts_getInnerText(el) {
+                    if (typeof el == "string") return el;
+                    if (typeof el == "undefined") { return el };
+                    if (el.innerText) return el.innerText;    //Not needed but it is faster
+                    var str = "";
+                
+                    var cs = el.childNodes;
+                    var l = cs.length;
+                    for (var i = 0; i < l; i++) {
+                        switch (cs[i].nodeType) {
+                            case 1: //ELEMENT_NODE
+                                str += ts_getInnerText(cs[i]);
+                                break;
+                            case 3:    //TEXT_NODE
+                                str += cs[i].nodeValue;
+                                break;
+                        }
+                    }
+                    return str;
+                }
+
+                function ts_resortTable(lnk,clid) {
+                        // get the span
+                        var span;
+                        for (var ci=0;ci<lnk.childNodes.length;ci++) {
+                                if (lnk.childNodes[ci].tagName && lnk.childNodes[ci].tagName.toLowerCase() == 'span') span = lnk.childNodes[ci];
+                        }
+                        var spantext = ts_getInnerText(span);
+                        var td = lnk.parentNode;
+                        var column = clid || td.cellIndex;
+                        var table = getParent(td,'TABLE');
+                
+                        // Work out a type for the column
+                        if (table.rows.length <= 1) return;
+                        var itm = ts_getInnerText(table.rows[1].cells[column]);
+                        sortfn = ts_sort_caseinsensitive;
+                        if (table.className.indexOf("col-number") != -1) {
+                        	sortfn =ts_sort_numeric;
+                      	}
+                        else if (itm.match(/^\d\d[\/-]\d\d[\/-]\d\d\d\d$/)) {
+                            sortfn = ts_sort_date;
+                        }
+                        else if (itm.match(/^\d\d[\/-]\d\d[\/-]\d\d$/)) {
+                            sortfn = ts_sort_date;
+                        }
+                        else if  (itm.match(/^[\d\.]+$/) || itm == "<!--EmptyNumber-->" ) {
+                            sortfn = ts_sort_numeric;
+                        }
+                        
+                        SORT_COLUMN_INDEX = column;
+                        var firstRow = new Array();
+                        var newRows = new Array();
+                        for (i=0;i<table.rows[0].length;i++) { firstRow[i] = table.rows[0][i]; }
+                        for (j=1;j<table.rows.length;j++) { newRows[j-1] = table.rows[j]; }
+
+                        newRows.sort(sortfn);
+
+                        if (span.getAttribute("sortdir") == 'down') {
+                                ARROW = '&uarr;';
+                                newRows.reverse();
+                                span.setAttribute('sortdir','up');
+                        } else {
+                                ARROW = '&darr;';
+                                span.setAttribute('sortdir','down');
+                        }
+                        
+                        // BDG: Set the 'alt' class.
+                        for ( i = 0; i < newRows.length; i++ )
+                        {
+                            if ( i % 2 == 0 )
+                                newRows[i].className = "alt";
+                            else
+                                newRows[i].className = ""
+                        }
+                
+                        // We appendChild rows that already exist to the tbody, so it moves them rather than creating new ones
+                        // don't do sortbottom rows
+                        for (i=0;i<newRows.length;i++) { if (!newRows[i].className || (newRows[i].className && (newRows[i].className.indexOf('sortbottom') == -1))) table.tBodies[0].appendChild(newRows[i]);}
+                        // do sortbottom rows only
+                        for (i=0;i<newRows.length;i++) { if (newRows[i].className && (newRows[i].className.indexOf('sortbottom') != -1)) table.tBodies[0].appendChild(newRows[i]);}
+                
+                        // Delete any other arrows there may be showing
+                        var allspans = document.getElementsByTagName("span");
+                        for (var ci=0;ci<allspans.length;ci++) {
+                                if (allspans[ci].className == 'sortarrow') {
+                                        if (getParent(allspans[ci],"table") == getParent(lnk,"table")) { // in the same table as us?
+                                                allspans[ci].innerHTML = '&nbsp;&nbsp;&nbsp;';
+                                        }
+                                }
+                        }
+                    
+                        span.innerHTML = ARROW;
+                }
+
+                function getParent(el, pTagName) {
+                    if (el == null) return null;
+                    else if (el.nodeType == 1 && el.tagName.toLowerCase() == pTagName.toLowerCase())    // Gecko bug, supposed to be uppercase
+                        return el;
+                    else
+                        return getParent(el.parentNode, pTagName);
+                }
+                function ts_sort_date(a,b) {
+                        // y2k notes: two digit years less than 50 are treated as 20XX, greater than 50 are treated as 19XX
+                        aa = ts_getInnerText(a.cells[SORT_COLUMN_INDEX]);
+                        bb = ts_getInnerText(b.cells[SORT_COLUMN_INDEX]);
+                        if (aa.length == 10) {
+                                dt1 = aa.substr(6,4)+aa.substr(3,2)+aa.substr(0,2);
+                        } else {
+                                yr = aa.substr(6,2);
+                                if (parseInt(yr) < 50) { yr = '20'+yr; } else { yr = '19'+yr; }
+                                dt1 = yr+aa.substr(3,2)+aa.substr(0,2);
+                        }
+                        if (bb.length == 10) {
+                                dt2 = bb.substr(6,4)+bb.substr(3,2)+bb.substr(0,2);
+                        } else {
+                                yr = bb.substr(6,2);
+                                if (parseInt(yr) < 50) { yr = '20'+yr; } else { yr = '19'+yr; }
+                                dt2 = yr+bb.substr(3,2)+bb.substr(0,2);
+                        }
+                        if (dt1==dt2) return 0;
+                        if (dt1<dt2) return -1;
+                        return 1;
+                }
+
+                function ts_sort_numeric(a,b) { 
+                        aa = parseFloat(ts_getInnerText(a.cells[SORT_COLUMN_INDEX]));
+                        //if (isNaN(aa)) aa = 0;
+                        if (isNaN(aa))
+                            return 1;
+                        bb = parseFloat(ts_getInnerText(b.cells[SORT_COLUMN_INDEX])); 
+                        //if (isNaN(bb)) bb = -1;
+                        if (isNaN(bb))
+                            return -1;
+                        return aa-bb;
+                }
+
+                function ts_sort_caseinsensitive(a,b) {
+                        aa = ts_getInnerText(a.cells[SORT_COLUMN_INDEX]).toLowerCase();
+                        bb = ts_getInnerText(b.cells[SORT_COLUMN_INDEX]).toLowerCase();
+                        if (aa==bb) return 0;
+                        if (aa<bb) return -1;
+                        return 1;
+                }
+
+                function ts_sort_default(a,b) {
+                        aa = ts_getInnerText(a.cells[SORT_COLUMN_INDEX]);
+                        bb = ts_getInnerText(b.cells[SORT_COLUMN_INDEX]);
+                        if (aa==bb) return 0;
+                        if (aa<bb) return -1;
+                        return 1;
+                }
+
+
+                function addEvent(elm, evType, fn, useCapture)
+                // addEvent and removeEvent
+                // cross-browser event handling for IE5+,  NS6 and Mozilla
+                // By Scott Andrew
+                {
+                    if (elm.addEventListener){
+                        elm.addEventListener(evType, fn, useCapture);
+                        return true;
+                    } else if (elm.attachEvent){
+                        var r = elm.attachEvent("on"+evType, fn);
+                        return r;
+                    } else {
+                        alert("Handler could not be removed");
+                    }
+                } 
+                
+                /*  FADE METHODS */
+                var Fat = {
+                    make_hex : function (r,g,b) 
+                    {
+                        r = r.toString(16); if (r.length == 1) r = '0' + r;
+                        g = g.toString(16); if (g.length == 1) g = '0' + g;
+                        b = b.toString(16); if (b.length == 1) b = '0' + b;
+                        return "#" + r + g + b;
+                    },
+                    fade_all : function ()
+                    {
+                        var a = document.getElementsByTagName("*");
+                        for (var i = 0; i < a.length; i++) 
+                        {
+                            var o = a[i];
+                            var r = /fade-?(\w{3,6})?/.exec(o.className);
+                            if (r)
+                            {
+                                if (!r[1]) r[1] = "";
+                                if (o.id) Fat.fade_element(o.id,null,null,"#"+r[1]);
+                            }
+                        }
+                    },
+                    fade_element : function (id, fps, duration, from, to) 
+                    {
+                        if (!fps) fps = 30;
+                        if (!duration) duration = 3000;
+                        if (!from || from=="#") from = "#FFFF33";
+                        if (!to) to = this.get_bgcolor(id);
+                        
+                        var frames = Math.round(fps * (duration / 1000));
+                        var interval = duration / frames;
+                        var delay = interval;
+                        var frame = 0;
+                        
+                        if (from.length < 7) from += from.substr(1,3);
+                        if (to.length < 7) to += to.substr(1,3);
+                        
+                        var rf = parseInt(from.substr(1,2),16);
+                        var gf = parseInt(from.substr(3,2),16);
+                        var bf = parseInt(from.substr(5,2),16);
+                        var rt = parseInt(to.substr(1,2),16);
+                        var gt = parseInt(to.substr(3,2),16);
+                        var bt = parseInt(to.substr(5,2),16);
+                        
+                        var r,g,b,h;
+                        while (frame < frames)
+                        {
+                            r = Math.floor(rf * ((frames-frame)/frames) + rt * (frame/frames));
+                            g = Math.floor(gf * ((frames-frame)/frames) + gt * (frame/frames));
+                            b = Math.floor(bf * ((frames-frame)/frames) + bt * (frame/frames));
+                            h = this.make_hex(r,g,b);
+                        
+                            setTimeout("Fat.set_bgcolor('"+id+"','"+h+"')", delay);
+
+                            frame++;
+                            delay = interval * frame; 
+                        }
+                        setTimeout("Fat.set_bgcolor('"+id+"','"+to+"')", delay);
+                    },
+                    set_bgcolor : function (id, c)
+                    {
+                        var o = document.getElementById(id);
+                        o.style.backgroundColor = c;
+                    },
+                    get_bgcolor : function (id)
+                    {
+                        var o = document.getElementById(id);
+                        while(o)
+                        {
+                            var c;
+                            if (window.getComputedStyle) c = window.getComputedStyle(o,null).getPropertyValue("background-color");
+                            if (o.currentStyle) c = o.currentStyle.backgroundColor;
+                            if ((c != "" && c != "transparent") || o.tagName == "BODY") { break; }
+                            o = o.parentNode;
+                        }
+                        if (c == undefined || c == "" || c == "transparent") c = "#FFFFFF";
+                        var rgb = c.match(/rgb\s*\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*\)/);
+                        if (rgb) c = this.make_hex(parseInt(rgb[1]),parseInt(rgb[2]),parseInt(rgb[3]));
+                        return c;
+                    }
+                }
+            
+            
+ </script></head><body class="iistraceinfo" onload="load();"><div id="header"><h1>Request Diagnostics for GET <a href="http://diepazure.azurewebsites.net/EpiserverDXCWarmupDelay.aspx">http://diepazure.azurewebsites.net:80/EpiserverDXCWarmupDelay.aspx</a></h1></div><div id="section_generalinformation" class="summary-container"><fieldset><h2><legend><a href="javascript:toggleDiv('section_generalinformation');"><span id="section_generalinformation_button" class="expand-collapse">-</span>Request Summary</a></legend></h2><div id="section_generalinformation_details"><table class="request-summary column-2" cellspacing="0" cellpadding="0" border="0"><tbody><tr class="alt"><th>Site</th><td>808077272</td></tr><tr><th>Process</th><td>1272</td></tr><tr class="alt"><th>Failure Reason</th><td>STATUS_CODE</td></tr><tr><th>Trigger Status</th><td>200</td></tr><tr class="alt"><th>Final Status</th><td>200</td></tr><tr><th>Time Taken</th><td>143000 msec</td></tr></tbody></table><table class="request-summary column-1" cellspacing="0" cellpadding="0" border="0"><tbody><tr class="alt"><th>Url</th><td>http://diepazure.azurewebsites.net:80/EpiserverDXCWarmupDelay.aspx</td></tr><tr><th>App Pool</th><td>diepazure</td></tr><tr class="alt"><th>Authentication</th><td>anonymous</td></tr><tr><th>User from token</th><td>IIS APPPOOL\diepazure</td></tr><tr class="alt"><th>Activity ID</th><td>{00000000-0000-0000-B63F-84710C7967BB}</td></tr></tbody></table></div></fieldset></div><div id="section_errors" class="summary-container hidden" style="display: block;"><fieldset><h2><legend><a href="javascript:toggleDiv('section_errors');"><span id="section_errors_button" class="expand-collapse">-</span>Errors &amp; Warnings</a></legend></h2><div id="section_errors_details"><table id="section_errors_table" class="sortable" width="100%" cellspacing="0" cellpadding="0" border="0"><thead><tr><th class="defaultsort col-number"><a href="#" class="sortheader" onclick="ts_resortTable(this, 0);return false;" alt="Sort By This Column">No.<span class="sortarrow" sortdir="down">↓</span></a></th><th class="col-actions"><a href="#" class="sortheader" onclick="ts_resortTable(this, 1);return false;" alt="Sort By This Column">&nbsp;<span class="sortarrow">&nbsp;</span></a></th><th class="col-severity"><a href="#" class="sortheader" onclick="ts_resortTable(this, 2);return false;" alt="Sort By This Column">Severity<span class="sortarrow">&nbsp;</span></a></th><th class="col-event"><a href="#" class="sortheader" onclick="ts_resortTable(this, 3);return false;" alt="Sort By This Column">Event<span class="sortarrow">&nbsp;</span></a></th><th class="col-name"><a href="#" class="sortheader" onclick="ts_resortTable(this, 4);return false;" alt="Sort By This Column">Module Name<span class="sortarrow">&nbsp;</span></a></th></tr></thead><tbody><tr><td colspan="4"><span>No Errors or Warnings were found</span></td></tr><tr><td colspan="4"><span><a href="javascript:setView('section_detail', 'viewDetails');" id="requestDetails" class=""> See all events for the request</a></span></td></tr></tbody></table></div></fieldset></div><div class="content-container"><div id="" class=""><span class="iistraceinfo"><table style="width:100%;border-collapse:collapse;table-layout:fixed;" cellspacing="0" cellpadding="0" border="1"><tbody><tr class="subhead" align="Left"><th width="32px">No.</th><th width="250px">EventName</th><th>Details</th><th title="Timestamp in GMT (low resolution timer)" width="100px">Time</th></tr><tr class="alt"><td>1.</td><td>GENERAL_REQUEST_START</td><td>SiteId="808077272",
+ AppPoolId="diepazure", ConnId="0", RawConnId="0", 
+RequestURL="http://diepazure.azurewebsites.net:80/EpiserverDXCWarmupDelay.aspx",
+ RequestVerb="GET"</td><td>13:22:02.786</td></tr><tr><td>2.</td><td>PRE_BEGIN_REQUEST_START</td><td>ModuleName="FailedRequestsTracingModule"</td><td>13:22:02.786</td></tr><tr class="alt"><td>3.</td><td>PRE_BEGIN_REQUEST_END</td><td>ModuleName="FailedRequestsTracingModule", NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:02.786</td></tr><tr><td>4.</td><td>PRE_BEGIN_REQUEST_START</td><td>ModuleName="RequestMonitorModule"</td><td>13:22:02.786</td></tr><tr class="alt"><td>5.</td><td>PRE_BEGIN_REQUEST_END</td><td>ModuleName="RequestMonitorModule", NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:02.786</td></tr><tr><td>6.</td><td>PRE_BEGIN_REQUEST_START</td><td>ModuleName="IsapiFilterModule"</td><td>13:22:02.786</td></tr><tr class="alt"><td>7.</td><td>FILTER_PREPROC_HEADERS_START</td><td></td><td>13:22:02.786</td></tr><tr><td>8.</td><td>FILTER_START</td><td>FilterName="D:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_filter.dll"</td><td>13:22:02.786</td></tr><tr class="alt"><td>9.</td><td>GENERAL_SET_REQUEST_HEADER</td><td>HeaderName="AspFilterSessionId", HeaderValue="", Replace="true"</td><td>13:22:02.786</td></tr><tr><td>10.</td><td>FILTER_SET_REQ_HEADER</td><td>HeaderName="AspFilterSessionId:", HeaderValue=""</td><td>13:22:02.786</td></tr><tr class="alt"><td>11.</td><td>FILTER_END</td><td>NotificationStatus="SF_STATUS_REQ_NEXT_NOTIFICATION"</td><td>13:22:02.786</td></tr><tr><td>12.</td><td>FILTER_PREPROC_HEADERS_END</td><td></td><td>13:22:02.786</td></tr><tr class="alt"><td>13.</td><td>PRE_BEGIN_REQUEST_END</td><td>ModuleName="IsapiFilterModule", NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:02.786</td></tr><tr><td>14.</td><td>PRE_BEGIN_REQUEST_START</td><td>ModuleName="RewriteModule"</td><td>13:22:02.786</td></tr><tr class="alt"><td>15.</td><td>PRE_BEGIN_REQUEST_END</td><td>ModuleName="RewriteModule", NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:02.786</td></tr><tr><td>16.</td><td>PRE_BEGIN_REQUEST_START</td><td>ModuleName="ARRHelper"</td><td>13:22:02.786</td></tr><tr class="alt"><td>17.</td><td>PRE_BEGIN_REQUEST_END</td><td>ModuleName="ARRHelper", NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:02.786</td></tr><tr><td>18.</td><td>PRE_BEGIN_REQUEST_START</td><td>ModuleName="DynamicIpRestrictionModule"</td><td>13:22:02.786</td></tr><tr class="alt"><td>19.</td><td>PRE_BEGIN_REQUEST_END</td><td>ModuleName="DynamicIpRestrictionModule", NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:02.786</td></tr><tr><td>20.</td><td>PRE_BEGIN_REQUEST_START</td><td>ModuleName="ProcessMonitoringModule"</td><td>13:22:02.786</td></tr><tr class="alt"><td>21.</td><td>PRE_BEGIN_REQUEST_END</td><td>ModuleName="ProcessMonitoringModule", NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:02.786</td></tr><tr><td>22.</td><td>PRE_BEGIN_REQUEST_START</td><td>ModuleName="DWASModule"</td><td>13:22:02.786</td></tr><tr class="alt"><td>23.</td><td>GENERAL_SET_REQUEST_HEADER</td><td>HeaderName="x-ms-http-forward", HeaderValue="", Replace="true"</td><td>13:22:02.786</td></tr><tr><td>24.</td><td>PRE_BEGIN_REQUEST_END</td><td>ModuleName="DWASModule", NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:02.786</td></tr><tr class="alt"><td>25.</td><td>GENERAL_ENDPOINT_INFORMATION</td><td>RemoteAddress="127.0.0.1", RemotePort="3500", LocalAddress="127.0.0.1", LocalPort="80"</td><td>13:22:02.786</td></tr><tr><td>26.</td><td>GENERAL_REQUEST_HEADERS</td><td>Headers="Host: diepazure.azurewebsites.net
+User-Agent: IIS Application Initialization Warmup
+"</td><td>13:22:02.786</td></tr><tr class="alt"><td>27.</td><td>URL_CACHE_ACCESS_START</td><td>RequestURL="/EpiserverDXCWarmupDelay.aspx"</td><td>13:22:02.786</td></tr><tr><td>28.</td><td>URL_CACHE_ACCESS_END</td><td>PhysicalPath="", URLInfoFromCache="false", URLInfoAddedToCache="true", ErrorCode="The operation completed successfully.
+ (0x0)"</td><td>13:22:02.786</td></tr><tr class="alt"><td>29.</td><td>GENERAL_GET_URL_METADATA</td><td>PhysicalPath="", AccessPerms="513"</td><td>13:22:02.786</td></tr><tr><td>30.</td><td>HANDLER_CHANGED</td><td>OldHandlerName="",
+ NewHandlerName="PageHandlerFactory-Integrated-4.0", 
+NewHandlerModules="ManagedPipelineHandler", 
+NewHandlerScriptProcessor="", 
+NewHandlerType="System.Web.UI.PageHandlerFactory"</td><td>13:22:02.786</td></tr><tr class="alt"><td>31.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ModSecurity IIS (32bits)", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>32.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ModSecurity
+ IIS (32bits)", Notification="BEGIN_REQUEST", 
+fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr class="alt"><td>33.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="WebSocketMonitoringModule", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>34.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="WebSocketMonitoringModule",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr class="alt"><td>35.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="DWASModule", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>36.</td><td>GENERAL_SET_REQUEST_HEADER</td><td>HeaderName="MWH-SecurityToken", HeaderValue="", Replace="true"</td><td>13:22:42.583</td></tr><tr class="alt"><td>37.</td><td>GENERAL_SET_REQUEST_HEADER</td><td>HeaderName="Sec-WebSocket-Extensions", HeaderValue="", Replace="true"</td><td>13:22:42.583</td></tr><tr><td>38.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="DWASModule",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr class="alt"><td>39.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="HttpCacheModule", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>40.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="HttpCacheModule",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr class="alt"><td>41.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="RequestFilteringModule", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>42.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="RequestFilteringModule",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr class="alt"><td>43.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="FailedRequestsTracingModule", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>44.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="FailedRequestsTracingModule",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr class="alt"><td>45.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ConfigurationValidationModule", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>46.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ConfigurationValidationModule",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr class="alt"><td>47.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="RewriteModule", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>48.</td><td>URL_REWRITE_START</td><td>RequestURL="/EpiserverDXCWarmupDelay.aspx", Scope="Distributed", Type="Inbound"</td><td>13:22:42.583</td></tr><tr class="alt"><td>49.</td><td>RULE_EVALUATION_START</td><td>RuleName="ClearAcceptEncodingHeader",
+ RequestURL="EpiserverDXCWarmupDelay.aspx", QueryString="", 
+PatternSyntax="Wildcard", StopProcessing="false", RelativePath="/"</td><td>13:22:42.583</td></tr><tr><td>50.</td><td>PATTERN_MATCH</td><td>Pattern="*", Input="EpiserverDXCWarmupDelay.aspx", Negate="false", Matched="true"</td><td>13:22:42.583</td></tr><tr class="alt"><td>51.</td><td>CONDITIONS_EVALUATION_START</td><td>LogicalGrouping="MatchAll"</td><td>13:22:42.583</td></tr><tr><td>52.</td><td>CONDITION_EVALUATION</td><td>Input="{EnvVarProvider:APPINSIGHTS_JAVASCRIPT_ENABLED}",
+ ExpandedInput="", MatchType="Pattern", Pattern="^true", Negate="false",
+ Succeeded="false"</td><td>13:22:42.583</td></tr><tr class="alt"><td>53.</td><td>CONDITIONS_EVALUATION_END</td><td>Succeeded="false"</td><td>13:22:42.583</td></tr><tr><td>54.</td><td>RULE_EVALUATION_END</td><td>RuleName="ClearAcceptEncodingHeader",
+ RequestURL="EpiserverDXCWarmupDelay.aspx", QueryString="", 
+StopProcessing="false", Succeeded="false"</td><td>13:22:42.583</td></tr><tr class="alt"><td>55.</td><td>URL_REWRITE_END</td><td>RequestURL=""</td><td>13:22:42.583</td></tr><tr><td>56.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="RewriteModule",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr class="alt"><td>57.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="IpRestrictionModule", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>58.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="IpRestrictionModule",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr class="alt"><td>59.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ApplicationInitializationModule", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>60.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ApplicationInitializationModule",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr class="alt"><td>61.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ManagedHttpModuleHelper", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr><td>62.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="IsapiFilterModule", Notification="MAP_PATH", fIsPostNotification="false"</td><td>13:22:42.583</td></tr><tr class="alt"><td>63.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="IsapiFilterModule",
+ Notification="MAP_PATH", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:42.583</td></tr><tr><td>64.</td><td>GENERAL_SET_REQUEST_HEADER</td><td>HeaderName="ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id",
+ HeaderValue="bf72110a-6dbb-408e-a9b6-b0039c5594cd", Replace="true"</td><td>13:22:43.489</td></tr><tr class="alt"><td>65.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ManagedHttpModuleHelper",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr><td>66.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="InitializationModule", Notification="BEGIN_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr class="alt"><td>67.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="InitializationModule",
+ Notification="BEGIN_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr><td>68.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="IsapiFilterModule", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr class="alt"><td>69.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="IsapiFilterModule",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr><td>70.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="WindowsAuthentication", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr class="alt"><td>71.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="WindowsAuthentication",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr><td>72.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="FormsAuthentication", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr class="alt"><td>73.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="FormsAuthentication",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr><td>74.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ScriptModule-4.0", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr class="alt"><td>75.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ScriptModule-4.0",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr><td>76.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="DWASModule", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr class="alt"><td>77.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="DWASModule",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr><td>78.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="AnonymousAuthenticationModule", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr class="alt"><td>79.</td><td>AUTH_START</td><td>AuthTypeSupported="Anonymous"</td><td>13:22:43.489</td></tr><tr><td>80.</td><td>AUTH_REQUEST_AUTH_TYPE</td><td>RequestAuthType="Anonymous"</td><td>13:22:43.489</td></tr><tr class="alt"><td>81.</td><td>AUTH_SUCCEEDED</td><td>AuthType="NT", NTLMUsed="false", RemoteUserName="", AuthUserName="", TokenImpersonationLevel="ImpersonationDelegate"</td><td>13:22:43.489</td></tr><tr><td>82.</td><td>USER_SET</td><td>AuthType="", UserName="", SupportsIsInRole="true"</td><td>13:22:43.489</td></tr><tr class="alt"><td>83.</td><td>AUTH_END</td><td></td><td>13:22:43.489</td></tr><tr><td>84.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="AnonymousAuthenticationModule",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr class="alt"><td>85.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="IsapiFilterModule", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="true"</td><td>13:22:43.489</td></tr><tr><td>86.</td><td>FILTER_AUTH_COMPLETE_START</td><td></td><td>13:22:43.489</td></tr><tr class="alt"><td>87.</td><td>FILTER_AUTH_COMPLETE_END</td><td></td><td>13:22:43.489</td></tr><tr><td>88.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="IsapiFilterModule",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr class="alt"><td>89.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="DefaultAuthentication", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="true"</td><td>13:22:43.489</td></tr><tr><td>90.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="DefaultAuthentication",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr class="alt"><td>91.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="RoleManager", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="true"</td><td>13:22:43.489</td></tr><tr><td>92.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="RoleManager",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr class="alt"><td>93.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ServiceModel-4.0", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="true"</td><td>13:22:43.489</td></tr><tr><td>94.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ServiceModel-4.0",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr class="alt"><td>95.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="InitializationModule", Notification="AUTHENTICATE_REQUEST", fIsPostNotification="true"</td><td>13:22:43.489</td></tr><tr><td>96.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="InitializationModule",
+ Notification="AUTHENTICATE_REQUEST", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr class="alt"><td>97.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="UrlAuthorization", Notification="AUTHORIZE_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr><td>98.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="UrlAuthorization",
+ Notification="AUTHORIZE_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr class="alt"><td>99.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="FileAuthorization", Notification="AUTHORIZE_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr><td>100.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="FileAuthorization",
+ Notification="AUTHORIZE_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr class="alt"><td>101.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="DWASModule", Notification="AUTHORIZE_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr><td>102.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="DWASModule",
+ Notification="AUTHORIZE_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr class="alt"><td>103.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="global.asax", Notification="AUTHORIZE_REQUEST", fIsPostNotification="false"</td><td>13:22:43.489</td></tr><tr><td>104.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="global.asax",
+ Notification="AUTHORIZE_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.489</td></tr><tr class="alt"><td>105.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="__DynamicModule_Microsoft.Owin.Host.SystemWeb.OwinHttpModule,
+ Microsoft.Owin.Host.SystemWeb, Version=2.0.1.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_31fee875-44c4-4adf-9652-3b71a7e50578", 
+Notification="AUTHORIZE_REQUEST", fIsPostNotification="true"</td><td>13:22:43.489</td></tr><tr><td>106.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="__DynamicModule_Microsoft.Owin.Host.SystemWeb.OwinHttpModule,
+ Microsoft.Owin.Host.SystemWeb, Version=2.0.1.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_31fee875-44c4-4adf-9652-3b71a7e50578", 
+Notification="AUTHORIZE_REQUEST", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.536</td></tr><tr class="alt"><td>107.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="HttpCacheModule", Notification="RESOLVE_REQUEST_CACHE", fIsPostNotification="false"</td><td>13:22:43.536</td></tr><tr><td>108.</td><td>OUTPUT_CACHE_LOOKUP_START</td><td></td><td>13:22:43.536</td></tr><tr class="alt"><td>109.</td><td>OUTPUT_CACHE_LOOKUP_END</td><td>Result="NOT_FOUND"</td><td>13:22:43.536</td></tr><tr><td>110.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="HttpCacheModule",
+ Notification="RESOLVE_REQUEST_CACHE", fIsPostNotificationEvent="false",
+ NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.536</td></tr><tr class="alt"><td>111.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="OutputCache", Notification="RESOLVE_REQUEST_CACHE", fIsPostNotification="false"</td><td>13:22:43.536</td></tr><tr><td>112.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="OutputCache",
+ Notification="RESOLVE_REQUEST_CACHE", fIsPostNotificationEvent="false",
+ NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.536</td></tr><tr class="alt"><td>113.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="UrlRoutingModule-4.0", Notification="RESOLVE_REQUEST_CACHE", fIsPostNotification="true"</td><td>13:22:43.536</td></tr><tr><td>114.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="UrlRoutingModule-4.0",
+ Notification="RESOLVE_REQUEST_CACHE", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.536</td></tr><tr class="alt"><td>115.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="InitializationModule", Notification="RESOLVE_REQUEST_CACHE", fIsPostNotification="true"</td><td>13:22:43.536</td></tr><tr><td>116.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="InitializationModule",
+ Notification="RESOLVE_REQUEST_CACHE", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.536</td></tr><tr class="alt"><td>117.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="__DynamicModule_System.Web.WebPages.WebPageHttpModule,
+ System.Web.WebPages, Version=3.0.0.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_d47b4750-e082-4312-b0c1-de98520be8d2", 
+Notification="RESOLVE_REQUEST_CACHE", fIsPostNotification="true"</td><td>13:22:43.536</td></tr><tr><td>118.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="__DynamicModule_System.Web.WebPages.WebPageHttpModule,
+ System.Web.WebPages, Version=3.0.0.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_d47b4750-e082-4312-b0c1-de98520be8d2", 
+Notification="RESOLVE_REQUEST_CACHE", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.567</td></tr><tr class="alt"><td>119.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="__DynamicModule_System.Web.Optimization.BundleModule,
+ System.Web.Optimization, Version=1.1.0.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_1dbd55fe-248b-4ea4-b063-f890816296b0", 
+Notification="RESOLVE_REQUEST_CACHE", fIsPostNotification="true"</td><td>13:22:43.567</td></tr><tr><td>120.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="__DynamicModule_System.Web.Optimization.BundleModule,
+ System.Web.Optimization, Version=1.1.0.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_1dbd55fe-248b-4ea4-b063-f890816296b0", 
+Notification="RESOLVE_REQUEST_CACHE", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.567</td></tr><tr class="alt"><td>121.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ApplicationRequestRouting", Notification="MAP_REQUEST_HANDLER", fIsPostNotification="false"</td><td>13:22:43.567</td></tr><tr><td>122.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ApplicationRequestRouting",
+ Notification="MAP_REQUEST_HANDLER", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.567</td></tr><tr class="alt"><td>123.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="StaticCompressionModule", Notification="MAP_REQUEST_HANDLER", fIsPostNotification="false"</td><td>13:22:43.567</td></tr><tr><td>124.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="StaticCompressionModule",
+ Notification="MAP_REQUEST_HANDLER", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.567</td></tr><tr class="alt"><td>125.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="HttpRedirectionModule", Notification="MAP_REQUEST_HANDLER", fIsPostNotification="false"</td><td>13:22:43.567</td></tr><tr><td>126.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="HttpRedirectionModule",
+ Notification="MAP_REQUEST_HANDLER", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.567</td></tr><tr class="alt"><td>127.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="DWASModule", Notification="MAP_REQUEST_HANDLER", fIsPostNotification="false"</td><td>13:22:43.567</td></tr><tr><td>128.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="DWASModule",
+ Notification="MAP_REQUEST_HANDLER", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:43.567</td></tr><tr class="alt"><td>129.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ManagedPipelineHandler", Notification="MAP_REQUEST_HANDLER", fIsPostNotification="false"</td><td>13:22:43.567</td></tr><tr><td>130.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ManagedPipelineHandler",
+ Notification="MAP_REQUEST_HANDLER", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:55.755</td></tr><tr class="alt"><td>131.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="DWASModule", Notification="MAP_REQUEST_HANDLER", fIsPostNotification="true"</td><td>13:22:55.755</td></tr><tr><td>132.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="DWASModule",
+ Notification="MAP_REQUEST_HANDLER", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:55.755</td></tr><tr class="alt"><td>133.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ShellRoutingModule", Notification="MAP_REQUEST_HANDLER", fIsPostNotification="true"</td><td>13:22:55.755</td></tr><tr><td>134.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ShellRoutingModule",
+ Notification="MAP_REQUEST_HANDLER", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:55.755</td></tr><tr class="alt"><td>135.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="Session", Notification="REQUEST_ACQUIRE_STATE", fIsPostNotification="false"</td><td>13:22:55.755</td></tr><tr><td>136.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="Session",
+ Notification="REQUEST_ACQUIRE_STATE", fIsPostNotificationEvent="false",
+ NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:55.755</td></tr><tr class="alt"><td>137.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="Profile", Notification="REQUEST_ACQUIRE_STATE", fIsPostNotification="false"</td><td>13:22:55.755</td></tr><tr><td>138.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="Profile",
+ Notification="REQUEST_ACQUIRE_STATE", fIsPostNotificationEvent="false",
+ NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:55.755</td></tr><tr class="alt"><td>139.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ScriptModule-4.0", Notification="REQUEST_ACQUIRE_STATE", fIsPostNotification="true"</td><td>13:22:55.755</td></tr><tr><td>140.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ScriptModule-4.0",
+ Notification="REQUEST_ACQUIRE_STATE", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:55.755</td></tr><tr class="alt"><td>141.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="InitializationModule", Notification="PRE_EXECUTE_REQUEST_HANDLER", fIsPostNotification="false"</td><td>13:22:55.755</td></tr><tr><td>142.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="InitializationModule",
+ Notification="PRE_EXECUTE_REQUEST_HANDLER", 
+fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:55.755</td></tr><tr class="alt"><td>143.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="__DynamicModule_Microsoft.Owin.Host.SystemWeb.OwinHttpModule,
+ Microsoft.Owin.Host.SystemWeb, Version=2.0.1.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_31fee875-44c4-4adf-9652-3b71a7e50578", 
+Notification="PRE_EXECUTE_REQUEST_HANDLER", fIsPostNotification="false"</td><td>13:22:55.755</td></tr><tr><td>144.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="__DynamicModule_Microsoft.Owin.Host.SystemWeb.OwinHttpModule,
+ Microsoft.Owin.Host.SystemWeb, Version=2.0.1.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_31fee875-44c4-4adf-9652-3b71a7e50578", 
+Notification="PRE_EXECUTE_REQUEST_HANDLER", 
+fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:55.755</td></tr><tr class="alt"><td>145.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="global.asax", Notification="PRE_EXECUTE_REQUEST_HANDLER", fIsPostNotification="false"</td><td>13:22:55.755</td></tr><tr><td>146.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="global.asax",
+ Notification="PRE_EXECUTE_REQUEST_HANDLER", 
+fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:22:55.755</td></tr><tr class="alt"><td>147.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ManagedPipelineHandler", Notification="EXECUTE_REQUEST_HANDLER", fIsPostNotification="false"</td><td>13:22:55.755</td></tr><tr><td>148.</td><td>GENERAL_SET_RESPONSE_HEADER</td><td>HeaderName="Cache-Control", HeaderValue="private", Replace="true"</td><td>13:24:25.786</td></tr><tr class="alt"><td>149.</td><td>GENERAL_SET_RESPONSE_HEADER</td><td>HeaderName="X-AspNet-Version", HeaderValue="4.0.30319", Replace="true"</td><td>13:24:25.786</td></tr><tr><td>150.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ManagedPipelineHandler",
+ Notification="EXECUTE_REQUEST_HANDLER", 
+fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>151.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="UrlRewriteModule", Notification="EXECUTE_REQUEST_HANDLER", fIsPostNotification="true"</td><td>13:24:25.786</td></tr><tr><td>152.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="UrlRewriteModule",
+ Notification="EXECUTE_REQUEST_HANDLER", 
+fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>153.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="Session", Notification="RELEASE_REQUEST_STATE", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>154.</td><td>GENERAL_SET_RESPONSE_HEADER</td><td>HeaderName="Content-Type", HeaderValue="text/html; charset=utf-8", Replace="true"</td><td>13:24:25.786</td></tr><tr class="alt"><td>155.</td><td>OUTPUT_CACHE_DISABLED</td><td></td><td>13:24:25.786</td></tr><tr><td>156.</td><td>GENERAL_SET_RESPONSE_HEADER</td><td>HeaderName="Set-Cookie",
+ HeaderValue="ASP.NET_SessionId=2oebpgglfdmqxdkmydphcasl; path=/; 
+HttpOnly; SameSite=Lax", Replace="false"</td><td>13:24:25.786</td></tr><tr class="alt"><td>157.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="Session",
+ Notification="RELEASE_REQUEST_STATE", fIsPostNotificationEvent="false",
+ NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr><td>158.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="DynamicCompressionModule", Notification="RELEASE_REQUEST_STATE", fIsPostNotification="true"</td><td>13:24:25.786</td></tr><tr class="alt"><td>159.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="DynamicCompressionModule",
+ Notification="RELEASE_REQUEST_STATE", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr><td>160.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="RewriteModule", Notification="RELEASE_REQUEST_STATE", fIsPostNotification="true"</td><td>13:24:25.786</td></tr><tr class="alt"><td>161.</td><td>URL_REWRITE_START</td><td>RequestURL="/EpiserverDXCWarmupDelay.aspx", Scope="Distributed", Type="Outbound"</td><td>13:24:25.786</td></tr><tr><td>162.</td><td>PRECONDITION_EVALUATION_START</td><td>Name="IsApplicationInsightsEnabled", PatternSyntax="Regex", LogicalGrouping="MatchAll"</td><td>13:24:25.786</td></tr><tr class="alt"><td>163.</td><td>PRECONDITION_EVALUATION</td><td>Input="{EnvVarProvider:APPINSIGHTS_JAVASCRIPT_ENABLED}",
+ ExpandedInput="", MatchType="Pattern", Pattern="^true", Negate="false",
+ Succeeded="false"</td><td>13:24:25.786</td></tr><tr><td>164.</td><td>PRECONDITION_EVALUATION_END</td><td>Succeeded="false"</td><td>13:24:25.786</td></tr><tr class="alt"><td>165.</td><td>PRECONDITION_EVALUATION_START</td><td>Name="NeedsRestoringAcceptEncoding", PatternSyntax="Regex", LogicalGrouping="MatchAll"</td><td>13:24:25.786</td></tr><tr><td>166.</td><td>PRECONDITION_EVALUATION</td><td>Input="{HTTP_X_ORIGINAL_ACCEPT_ENCODING}",
+ ExpandedInput="", MatchType="Pattern", Pattern=".+", Negate="false", 
+Succeeded="false"</td><td>13:24:25.786</td></tr><tr class="alt"><td>167.</td><td>PRECONDITION_EVALUATION_END</td><td>Succeeded="false"</td><td>13:24:25.786</td></tr><tr><td>168.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="RewriteModule",
+ Notification="RELEASE_REQUEST_STATE", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>169.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="AspNetFilterModule", Notification="UPDATE_REQUEST_CACHE", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>170.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="AspNetFilterModule",
+ Notification="UPDATE_REQUEST_CACHE", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>171.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="HttpCacheModule", Notification="UPDATE_REQUEST_CACHE", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>172.</td><td>OUTPUT_CACHE_UPDATE_START</td><td>CachePolicy="NO_CACHE", TimeToLive="0"</td><td>13:24:25.786</td></tr><tr class="alt"><td>173.</td><td>OUTPUT_CACHE_UPDATE_END</td><td>Result="NOT_FREQUENTLY_HIT"</td><td>13:24:25.786</td></tr><tr><td>174.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="HttpCacheModule",
+ Notification="UPDATE_REQUEST_CACHE", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>175.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="OutputCache", Notification="UPDATE_REQUEST_CACHE", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>176.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="OutputCache",
+ Notification="UPDATE_REQUEST_CACHE", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>177.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="AspNetFilterModule", Notification="LOG_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>178.</td><td>GENERAL_SET_RESPONSE_HEADER</td><td>HeaderName="Content-Type", HeaderValue="text/html; charset=utf-8", Replace="true"</td><td>13:24:25.786</td></tr><tr class="alt"><td>179.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="AspNetFilterModule",
+ Notification="LOG_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr><td>180.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="DynamicIpRestrictionModule", Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr class="alt"><td>181.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="DynamicIpRestrictionModule",
+ Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr><td>182.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="FormsAuthentication", Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr class="alt"><td>183.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="FormsAuthentication",
+ Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr><td>184.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="Profile", Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr class="alt"><td>185.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="Profile", Notification="END_REQUEST", fIsPostNotificationEvent="false", NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr><td>186.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ScriptModule-4.0", Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr class="alt"><td>187.</td><td>GENERAL_SET_RESPONSE_HEADER</td><td>HeaderName="Content-Type", HeaderValue="text/html; charset=utf-8", Replace="true"</td><td>13:24:25.786</td></tr><tr><td>188.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ScriptModule-4.0",
+ Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>189.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ProcessMonitoringModule", Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>190.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ProcessMonitoringModule",
+ Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>191.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="DWASModule", Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>192.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="DWASModule",
+ Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>193.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ManagedHttpModuleHelper", Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>194.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ManagedHttpModuleHelper",
+ Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>195.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="InitializationModule", Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>196.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="InitializationModule",
+ Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>197.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="UrlRewriteModule", Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>198.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="UrlRewriteModule",
+ Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>199.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="__DynamicModule_Castle.MicroKernel.Lifestyle.PerWebRequestLifestyleModule,
+ Castle.Windsor, Version=3.3.0.0, Culture=neutral, 
+PublicKeyToken=407dd0808d44fbdc_894d31aa-1635-423a-bc08-b8f67a9e5120", 
+Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>200.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="__DynamicModule_Castle.MicroKernel.Lifestyle.PerWebRequestLifestyleModule,
+ Castle.Windsor, Version=3.3.0.0, Culture=neutral, 
+PublicKeyToken=407dd0808d44fbdc_894d31aa-1635-423a-bc08-b8f67a9e5120", 
+Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>201.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="__DynamicModule_Microsoft.Owin.Host.SystemWeb.OwinHttpModule,
+ Microsoft.Owin.Host.SystemWeb, Version=2.0.1.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_31fee875-44c4-4adf-9652-3b71a7e50578", 
+Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>202.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="__DynamicModule_Microsoft.Owin.Host.SystemWeb.OwinHttpModule,
+ Microsoft.Owin.Host.SystemWeb, Version=2.0.1.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_31fee875-44c4-4adf-9652-3b71a7e50578", 
+Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>203.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="__DynamicModule_System.Web.WebPages.WebPageHttpModule,
+ System.Web.WebPages, Version=3.0.0.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_d47b4750-e082-4312-b0c1-de98520be8d2", 
+Notification="END_REQUEST", fIsPostNotification="false"</td><td>13:24:25.786</td></tr><tr><td>204.</td><td>GENERAL_SET_RESPONSE_HEADER</td><td>HeaderName="Request-Context", HeaderValue="appId=cid-v1:372729ab-ec51-44ac-90c5-e6acd53d8d59", Replace="true"</td><td>13:24:25.786</td></tr><tr class="alt"><td>205.</td><td>GENERAL_SET_RESPONSE_HEADER</td><td>HeaderName="Access-Control-Expose-Headers", HeaderValue="Request-Context", Replace="false"</td><td>13:24:25.786</td></tr><tr><td>206.</td><td>GENERAL_SET_RESPONSE_HEADER</td><td>HeaderName="Content-Type", HeaderValue="text/html; charset=utf-8", Replace="true"</td><td>13:24:25.786</td></tr><tr class="alt"><td>207.</td><td>GENERAL_SET_RESPONSE_HEADER</td><td>HeaderName="Cache-Control", HeaderValue="private", Replace="true"</td><td>13:24:25.786</td></tr><tr><td>208.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="__DynamicModule_System.Web.WebPages.WebPageHttpModule,
+ System.Web.WebPages, Version=3.0.0.0, Culture=neutral, 
+PublicKeyToken=31bf3856ad364e35_d47b4750-e082-4312-b0c1-de98520be8d2", 
+Notification="END_REQUEST", fIsPostNotificationEvent="false", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>209.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="ModSecurity IIS (32bits)", Notification="END_REQUEST", fIsPostNotification="true"</td><td>13:24:25.786</td></tr><tr><td>210.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="ModSecurity
+ IIS (32bits)", Notification="END_REQUEST", 
+fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>211.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="DWASModule", Notification="END_REQUEST", fIsPostNotification="true"</td><td>13:24:25.786</td></tr><tr><td>212.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="DWASModule", Notification="END_REQUEST", fIsPostNotificationEvent="true", NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>213.</td><td>NOTIFY_MODULE_START</td><td>ModuleName="WebSocketMonitoringModule", Notification="END_REQUEST", fIsPostNotification="true"</td><td>13:24:25.786</td></tr><tr><td>214.</td><td>NOTIFY_MODULE_END</td><td>ModuleName="WebSocketMonitoringModule",
+ Notification="END_REQUEST", fIsPostNotificationEvent="true", 
+NotificationStatus="NOTIFICATION_CONTINUE"</td><td>13:24:25.786</td></tr><tr class="alt"><td>215.</td><td>GENERAL_REQUEST_END</td><td>BytesSent="0", BytesReceived="0", HttpStatus="200", HttpSubStatus="0"</td><td>13:24:25.786</td></tr></tbody></table></span></div></div></body></html>
